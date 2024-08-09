@@ -1,0 +1,48 @@
+@use "../abstracts" as *;
+@use "../utilities/" as *;
+
+.four-col {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hero-content {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.amazing-food {
+    display: flex;
+    gap: 48px;
+
+    img {
+        max-width: 600px;
+        margin-top: -64px;
+    }
+}
+
+.meal-img-ctr {
+    position: relative;
+}
+
+.img-caption{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+  
+  /* Centered text */
+//   .centered {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }

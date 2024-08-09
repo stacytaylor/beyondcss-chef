@@ -1,0 +1,56 @@
+@use "../abstracts" as *;
+@use "../utilities/" as *;
+
+body {
+    font-family: $ff-sans;
+    font-weight: $fw-400;
+    font-size: fs(18);
+    color: clr(neutral, 400);
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-family: $ff-header;
+    font-weight: $fw-400;
+    font-size: fs(80);
+    color: clr(neutral,100);
+    line-height: 1.13;
+  }
+
+  h2 {
+    font-family: $ff-header;
+    font-weight: $fw-400;
+    font-size: fs(60);
+    color: clr(neutral,100);
+    line-height: 1;
+  }
+  
+  h3 {
+    font-family: $ff-sans;
+    font-weight: $fw-700;
+    font-size: fs(21);
+    color: clr(neutral,900);
+  }
+
+  .subtitle {
+    font-family: $ff-sans;
+    font-weight: $fw-400;
+    font-size: fs(27);
+    color: clr(neutral,400);
+  }
+
+  .small-text {
+    font-size: fs(16);
+  }
+
+  header {
+    background-image: url(../../assets/hero-bg.jpg);
+  }
+
+  .meals {
+    background-image: url(../../assets/meals-bg.png);
+  }
+
+  .great-food {
+    background-color: clr(neutral, 200);
+  }
