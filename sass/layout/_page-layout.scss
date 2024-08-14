@@ -10,6 +10,7 @@
 .three-col {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
 }
 
 .hero-content {
@@ -29,20 +30,46 @@
 
 .meal-img-ctr {
     position: relative;
+
+    img {
+        max-width: 100%;
+    }
 }
 
 .img-caption{
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 0px;
+    padding: 32px;
+    background-color: rgba(33, 33, 33, .5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    display: none;
 }
 
+.meal-img-ctr:hover .img-caption {
+    display: block;
+  }
 
-  
-  /* Centered text */
-//   .centered {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//   }
+.testimonial-img {
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.testimonial-ctr{
+    position: relative;
+}
+
+.testimonial {
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+.testimonial-name {
+    background-color: #F9F9F9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+}  

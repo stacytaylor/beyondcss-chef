@@ -36,7 +36,6 @@ body {
     font-family: $ff-sans;
     font-weight: $fw-400;
     font-size: fs(27);
-    color: clr(neutral,400);
   }
 
   .small-text {
@@ -53,4 +52,9 @@ body {
 
   .great-food {
     background-color: clr(neutral, 200);
+  }
+
+  footer {
+    background-color: clr(neutral, 900);
+   
   }
